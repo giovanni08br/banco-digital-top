@@ -14,6 +14,15 @@
     color: #252525;
 }
 
+.c-nav a{
+    text-decoration: none;
+}
+
+.c-nav li:hover{
+    font-weight: 700;
+    transition: .5s;
+}
+
 #logo{
     font-family: 'Noto Sans';
     font-style: normal;
