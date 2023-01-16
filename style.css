@@ -1,0 +1,521 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ---HEADER ---- */
+
+.c-nav li{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 1vw;
+    color: #252525;
+}
+
+#logo{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.833vw;
+    line-height: 1.146vw;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.c-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2.083vw;
+    list-style: none;
+    padding-left: 6.250vw;
+    height: 3.542vw;
+}
+
+/* --- MAIN --- */
+
+.c-button a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.146vw;
+    text-decoration: none;
+    color: #252525;
+}
+
+.c-button{
+    text-align: center;
+    background-color: #FFD600;
+    width: 14.740vw;
+    border-radius: 2.604vw;
+    padding: 1.042vw 2.083vw;
+}
+
+.c-cont-section01{
+    display: flex;
+    margin-left: 6.250vw;
+    margin-top: 4.167vw;
+    gap: 8.333vw;
+}
+.c-imagem-section01 img{
+    width: 43.229vw;
+}
+
+.c-text-section01{
+    margin-bottom: 6.250vw;
+}
+
+.c-text-section01 h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.833vw;
+    line-height: 1.146vw;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.c-text-section01 h2{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.500vw;
+    line-height: 3.385vw;
+    color: #252525;
+    padding-bottom: 1.042vw;
+}
+
+.c-text-section01 p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+}
+
+.c-box-texto{
+    background-color:#277A68;
+    width: 40vw;
+    border-radius: 0 6.302vw 6.302vw 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.406vw;
+    margin-left: 6.250vw;
+    margin-top: 4.167vw;
+    padding: 2.083vw 0 2.083vw 4.167vw;
+    color: #fff;
+}
+
+/* ---CARDS--- */
+
+.c-cont-post{
+    display: flex;
+    margin-left: 6.250vw;
+    margin-top: 4.167vw;
+    gap: 1.042vw;
+}
+
+.c-post{
+    background-color: #f7f7f7;
+    border: 1px solid #252525;
+    width: 28.490vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.083vw;
+    border-radius: 0.833vw;
+}
+
+.c-post img{
+    border-radius: 0.833vw 0.833vw 0 0;
+}
+
+.c-post h1{
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+}
+
+.c-post p{
+    padding-left: 1.042vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.406vw;
+    padding-bottom: 2.083vw;
+}
+
+.c-cont-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.167vw;
+    margin-bottom: 4.167vw;
+}
+
+/* --SELFIE-- */
+
+.c-img-selfie{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.167vw;
+}
+.c-img-selfie img{
+    width: 87.500vw;
+}
+
+/* --- PERFIL --- */
+
+.c-cont-perfil{
+    display: flex;
+    margin-left: 6.250vw;
+    gap: 8.333vw;
+}
+
+.c-img-perfil img{
+    width: 43.229vw;
+
+}
+
+.c-texto-perfil h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.333vw;
+    line-height: 4.010vw;
+    color: #252525;
+    margin-bottom: 3.125vw;
+}
+
+.c-texto-perfil p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.667vw;
+    line-height: 2.292vw;
+    color: #252525;
+}
+
+.c-item-perfil{
+    display: flex;
+    gap: 1.042vw;
+    margin-bottom: 2.083vw;
+}
+
+.c-item-perfil img{
+    width: 1.250vw;
+}
+
+/* ---VANTAGENS---- */
+
+.c-titulo-vantagem h1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: 3.33vw;
+    margin-left: 6.250vw;
+    margin-bottom: 4.167vw;
+}
+
+.c-post-vantagem{
+    background-color: #f7f7f7;
+    border: 1px solid #252525;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw;
+    border-radius: 0.78vw;
+}
+.c-cont-post-vantagem{
+    display: flex;
+    margin-left: 6.250vw;
+    gap: 1.033vw;
+}
+.c-post-vantagem h1{
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+}
+
+.c-post-vantagem p{
+    padding-left: 1.042vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.406vw;
+    padding-bottom: 2.083vw;
+}
+
+.c-post-vantagem img{
+    border-radius: 0.78vw 0.78vw 0 0;
+}
+
+/* ---SMARTPHONE---- */
+
+.c-cont-smartphone{
+    text-align: center;
+    padding: 4.167vw 0;
+}
+
+.c-cont-smartphone img {
+    width: 87.135vw;
+    border-radius: 1.302vw;
+}
+
+/* ----FILHO----- */
+
+.c-titulo-filho h1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.500vw;
+    line-height: 3.33vw;
+    margin-left: 6.250vw;
+    margin-bottom: 4.167vw;
+}
+
+.c-post-filho{
+    background-color: #f7f7f7;
+    border: 1px solid #252525;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw;
+    border-radius: 0.78vw;
+}
+.c-cont-post-filho{
+    display: flex;
+    margin-left: 6.250vw;
+    gap: 1.033vw;
+}
+.c-post-filho h1{
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+}
+
+.c-post-filho p{
+    padding-left: 1.042vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.406vw;
+    padding-bottom: 2.083vw;
+}
+
+.c-post-filho img{
+    border-radius: 0.7vw 0.78vw 0 0;
+    width: auto;
+}
+
+
+/* --- GAROTAS --- */
+
+.c-cont-garotas{
+    text-align: center;
+    padding: 2.167vw 0;
+}
+
+.c-cont-garotas img {
+    width: 87.135vw;
+    border-radius: 1.302vw;
+}
+
+/* --- DESCONTOS --- */
+
+.l-descontos{
+    background-color: #FFD600;
+    width: 87.396vw;
+    margin-left: 6.250vw;
+    border-radius: 0.7vw;
+    margin-bottom: 4.167vw;
+}
+
+.c-titulo-desconto{
+    padding: 4.167vw 0;
+}
+
+.c-titulo-desconto h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.667vw;
+    line-height: 2.292vw;
+    text-align: center;
+}
+
+.c-cont-categorias{
+    display: flex;
+    justify-content: center;
+    gap: 4.167vw;
+    padding-bottom: 4.167vw;
+}
+
+.c-categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.042vw;
+}
+
+.c-categoria img{
+    width: 10.417vw;
+}
+
+.c-categoria span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.042vw;
+    line-height: 1.406vw;
+}
+
+/* ---ABRIR CONTA --- */
+
+.l-abrirconta{
+    background: #277A68;
+    width: 87.396vw;
+    margin-left: 6.250vw;
+    color: #d9d9d9;
+    padding-top: 6.250vw;
+    border-radius: 0.7vw 0.7vw 0 0;
+}
+
+.c-cont-etapas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-etapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.042vw;
+}
+
+.c-titulo-abrirconta h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875vw;
+    line-height: 2.500vw;
+    text-align: center;
+    margin-bottom: 1.042vw;
+}
+
+.c-titulo-abrirconta p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+    text-align: center;
+    margin-bottom: 2.083vw;
+}
+
+.c-etapas h2{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.667vw;
+    line-height: 2.240vw;
+    padding-bottom: 1.042vw;
+}
+
+.c-etapas p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 1.719vw;
+    text-align: center;
+}
+
+.c-etapas img{
+    margin-top: 3.125vw;
+    width: 17.188vw;
+}
+
+/* ---FOOTER---- */
+
+.l-footer{
+    background-color: #17473D;
+    width: 87.396vw;
+    margin-left: 6.250vw;
+}
+
+.c-cont-footer{
+    display: flex;
+    /* margin: 0 9.375vw; */
+    justify-content: space-around;
+    padding: 3.333vw 0;
+
+}
+
+.c-cont-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.833vw;
+}
+
+.c-cont-links a{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625vw;
+    line-height: 0.729vw;
+
+}
+
+.c-cont-links h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+    color: #d9d9d9;
+}
+
+.c-redessociais h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+    color: #d9d9d9;
+    padding-bottom: 0.833vw;
+}
+
+.c-redessociais img{
+    margin-right: 0.833vw;
+    width: 6.510vw;
+}
+
+.c-siga{
+    display: flex;
+    gap: 0.833vw;
+}
+
+.c-fale{
+    display: flex;
+    flex-direction: column;
+    gap: 0.833vw;
+    padding-bottom: 2vw;
+}
