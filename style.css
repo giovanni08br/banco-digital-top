@@ -53,6 +53,10 @@
     padding: 1.042vw 2.083vw;
 }
 
+.c-button:hover{
+    background-color: #af9826;
+}
+
 .c-cont-section01{
     display: flex;
     margin-left: 6.250vw;
