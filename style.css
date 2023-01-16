@@ -54,7 +54,8 @@
 }
 
 .c-button:hover{
-    background-color: #af9826;
+    background-color: #d1b31d;
+    transition: .5s;
 }
 
 .c-cont-section01{
@@ -485,7 +486,10 @@
     font-weight: 400;
     font-size: 0.625vw;
     line-height: 0.729vw;
+}
 
+.c-cont-links a:hover{
+    font-weight: 700;
 }
 
 .c-cont-links h1{
